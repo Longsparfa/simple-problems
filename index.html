@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>redoChallenge</title>
+</head>
+<body>
+    <div class="Main-Container-1">
+        <h2>CHALLENGE ONE: Age in Days</h2>
+
+        <div class="flexbox-container-1">
+           <div>
+            <button id="btn-1" onclick="ageInDays()">Click Me</button>
+           </div>
+
+            <div>
+             <button type="reset" id="btn-2" onclick="resetAge()">Reset</button>
+            </div>
+        </div>
+        <div class="flexbox-container-1">
+            <div id="results">
+                <span id="emptyMsg"></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="Main-Container-2">
+        <h2>CHALLENGE TWO: Generate Pictures</h2>
+
+        <div><button id="btn-3" onclick="generatePix()">Generate Pix</button></div>
+
+        <div class="flexbox-container-2" id="photo-flex"></div>
+    </div>
+
+    <div class="Main-Container-3">
+        <h1>CHALLENGE THREE: ROCK, PAPER, SCISSORS!</h1>
+
+        <div class="flexbox-container-3" id="flexbox-rps">
+            <div>
+                <img src="./rock960x0.jpg" alt="rock" id="rock" onclick=rpsGame(this)>
+            </div>
+            <div>
+                <img src="./paper.png" alt="paper" id="paper" onclick=rpsGame(this)>
+            </div>
+            <div>
+                <img src="./scissors.png" alt="scissors" id="scissors" onclick=rpsGame(this)>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+.Main-Container-1, .Main-Container-2, .Main-Container-3 {
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flexbox-container-1, .flexbox-container-2, .flexbox-container-3 {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flexbox-container-1 div {
+    padding: 10px;
+    border: 1px solid black;
+    align-items: center;
+}
+
+.flexbox-container-2 img {
+    margin: 10px;
+    box-shadow: 0px 10px 50px indigo;
+    height: 232px;
+    width: 217px;
+
+}
+
+#btn-1 {
+    background-color: mediumblue;
+    color: aliceblue;
+}
+
+#btn-2 {
+    background-color: rgb(205, 0, 0);
+    color: aliceblue;
+}
+
+#btn-3 {
+    background-color: rgb(0, 205, 68);
+    color: aliceblue;
+}
+
+#rock, #scissors, #paper {
+    height: 232px;
+    width: 217px;
+}
+
+#humanDiv {
+    height: 232px;
+    width: 217px;
+    box-shadow: 0px 10px 50px rgba(32, 50, 233, 1);
+    
+}
+
+#botDiv {
+    height: 232px;
+    width: 217px;
+    box-shadow: 0px 10px 50px rgba(243, 38, 24, 1);
+}
+
+#messageDiv {
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 30px;
+}
